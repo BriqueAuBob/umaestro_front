@@ -26,6 +26,7 @@
         <Project
           class="my-8"
           image="makebetter.png"
+          href="https://makebetter.app"
           name="MakeBetter.app"
           description="MakeBetter est un site internet ayant pour vocation de proposer des outils de personnalisation et d'amélioration en rapport avec les réseaux sociaux."
           data-scroll
@@ -34,6 +35,7 @@
         <Project
           class="my-8"
           image="meta_creation.png"
+          href="https://discord.gg/dqpkacEUrM"
           name="Meta Creation"
           description="Meta Creation est un serveur communautaire qui cherche à réunir internet à partir de plusieurs pôles, le graphisme, le développement, la communication ainsi que le son & la vidéo."
           data-scroll
@@ -93,14 +95,14 @@ const socials = [
     description:
       "Rejoins notre communauté sur Discord! Nous y organisons des événements et des concours régulièrement et il y a pleins d'informations utiles!",
     icon: "discord.svg",
-    link: "https://discord.gg/2qZ7Yj",
+    link: "https://discord.gg/GWpGBK8gmA",
   },
   {
     name: "Twitter",
     description:
       "Suivez-nous sur Twitter pour être au courant de nos dernières actualités!",
     icon: "twitter.svg",
-    link: "https://twitter.com/crea_meta",
+    link: "https://twitter.com/GUMaestro",
   },
 ];
 </script>
