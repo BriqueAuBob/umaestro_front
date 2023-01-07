@@ -1,26 +1,23 @@
 <template>
   <div>
     <header class="text-center py-44 relative">
-      <h1 class="font-black text-7xl">Occaecat aute magna sit</h1>
+      <h1 class="font-black text-7xl">UMaestro Network</h1>
       <h2 class="font-medium text-4xl mt-6 max-w-4xl mx-auto">
-        Quis duis ipsum tempor aliqua commodo labore est culpa ad sunt ex mollit
-        non
+        Nos solutions innovantes pour vos idées.
       </h2>
       <Button class="mt-16 mx-auto" size="BIG">Voir nos projets</Button>
     </header>
     <section class="text-center py-16 relative">
       <div class="font-bold text-lg">Qui sommes-nous?</div>
       <p class="max-w-2xl text-lg mx-auto mt-4 leading-relaxed text-justify">
-        Officia pariatur id quis nisi tempor ipsum incididunt minim dolore
-        pariatur consequat in. Consequat aliquip laborum aliqua esse excepteur
-        deserunt commodo ut et exercitation ipsum eiusmod reprehenderit
-        deserunt. Exercitation enim pariatur dolor consectetur duis magna
-        officia laboris velit eu eiusmod. Est id reprehenderit commodo velit
-        nisi officia nostrud irure magna ipsum eu. Nostrud dolore minim cillum
-        quis reprehenderit pariatur ipsum est dolore velit labore. Enim ea qui
-        est est cupidatat ad deserunt sit occaecat pariatur ex laboris. Duis
-        aliquip sunt quis anim ad mollit minim esse. Lorem Lorem exercitation eu
-        id laboris dolore.
+        UMaestro est un groupe réalisant plusieurs projets dédié à aider les
+        créateurs de contenu pour atteindre leur plein potentiel. Nous croyons
+        que tous les créateurs méritent les outils et les moyens nécessaires
+        pour réussir dans leur travail. Nous travaillons dur pour développer des
+        solutions innovantes et accessibles qui rendent la création de contenu
+        plus facile et plus efficace. Nous sommes impatients de travailler avec
+        vous et de vous aider à réussir dans votre travail de création de
+        contenu.
       </p>
     </section>
     <section class="py-16 relative" data-scroll-container>
@@ -28,9 +25,9 @@
         <div class="font-bold text-lg text-center mb-8">Nos projets</div>
         <Project
           class="my-8"
-          image="meta_creation.png"
-          name="Meta Creation"
-          description="Cupidatat duis anim ex voluptate excepteur qui irure sit consectetur exercitation eu duis ea."
+          image="makebetter.png"
+          name="MakeBetter.app"
+          description="MakeBetter est un site internet ayant pour vocation de proposer des outils de personnalisation et d'amélioration en rapport avec les réseaux sociaux."
           data-scroll
           data-scroll-speed="-0.4"
         />
@@ -38,7 +35,7 @@
           class="my-8"
           image="meta_creation.png"
           name="Meta Creation"
-          description="Cupidatat duis anim ex voluptate excepteur qui irure sit consectetur exercitation eu duis ea."
+          description="Meta Creation est un serveur communautaire qui cherche à réunir internet à partir de plusieurs pôles, le graphisme, le développement, la communication ainsi que le son & la vidéo."
           data-scroll
           data-scroll-speed="2"
         />

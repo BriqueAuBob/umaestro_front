@@ -39,7 +39,7 @@ jobs:
 
           cd umaestro_front
           pm2 delete umaestro_front
-          pm2 start .output/server/index.mjs --name umaestro_front
+          pm2 start ecosystem.config.js
           rm -rf ../umaestro_front_old
       - uses: rjstone/discord-webhook-notify@v1
         if: success()

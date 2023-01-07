@@ -62,8 +62,8 @@
       <div class="mt-8" :class="{ 'opacity-0': !menu, 'opacity-100': menu }">
         <div class="text-2xl font-bold mb-4 hidden md:block">Nos projets</div>
         <div class="hidden md:grid grid-cols-2 xl:grid-cols-3 gap-8">
+          <Project name="makebetter.app" image="makebetter.png" />
           <Project name="Meta Creation" image="meta_creation.png" />
-          <Project name="makebetter.app" image="meta_creation.png" />
         </div>
       </div>
     </div>

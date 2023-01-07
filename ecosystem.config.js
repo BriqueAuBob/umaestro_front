@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: "UMaestroFront",
+      name: "umaestro_front",
       exec_mode: "cluster",
       instances: "max",
       script: "./.output/server/index.mjs",
