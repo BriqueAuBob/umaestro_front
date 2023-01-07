@@ -12,9 +12,7 @@
       <div v-if="description" class="text-lg font-medium mt-2">
         {{ description }}
       </div>
-      <Button href="/projects/meta_creation" class="mt-5" size="MEDIUM">
-        Voir le projet
-      </Button>
+      <Button :href="href" class="mt-5" size="MEDIUM"> Voir le projet </Button>
     </div>
   </div>
 </template>
@@ -32,6 +30,10 @@ defineProps({
   description: {
     type: String,
     required: false,
+  },
+  href: {
+    type: String,
+    required: true,
   },
 });
 </script>
