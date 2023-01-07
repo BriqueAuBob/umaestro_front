@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.2.0",
+    "@types/locomotive-scroll": "^4.1.0",
+    "nuxt": "3.0.0"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.6",
+    "locomotive-scroll": "^4.1.4",
+    "pinia": "^2.0.28"
+  },
+  "overrides": {
+    "vue": ">3.2.0"
+  }
+}
