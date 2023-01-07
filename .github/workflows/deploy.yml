@@ -20,7 +20,6 @@ jobs:
           rm -rf umaestro_front_new
           cp -r umaestro_front umaestro_front_new
           cd umaestro_front_new
-          git checkout main
           git reset --hard origin/main
           git pull
           npm rebuild
