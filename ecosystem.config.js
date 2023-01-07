@@ -6,6 +6,9 @@ module.exports = {
       instances: "max",
       script: "./.output/server/index.mjs",
       port: 3001,
+      env: {
+        PORT: 3001,
+      },
     },
   ],
 };
