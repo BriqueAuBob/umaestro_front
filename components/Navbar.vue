@@ -111,10 +111,9 @@ watch(menu, () => {
 
 const config = useAppConfig();
 const login = async () => {
-  const { data } = await useFetch("/auth/oauth2/discord", {
-    baseURL: config.api.base_url,
-  });
-  window.location.href = data.value.redirect;
+  window.location.href =
+    "http://localhost:5174?redirect_uri=" +
+    encodeURIComponent(window.location.href);
 };
 
 const { user, isLoggedIn } = storeToRefs(useAuthStore());
