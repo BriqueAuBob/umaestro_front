@@ -112,7 +112,7 @@ watch(menu, () => {
 const config = useAppConfig();
 const login = async () => {
   window.location.href =
-    "http://localhost:5174?redirect_uri=" +
+    "https://oauth.umaestro.fr?redirect_uri=" +
     encodeURIComponent(window.location.href);
 };
 
