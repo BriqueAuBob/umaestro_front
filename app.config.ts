@@ -5,7 +5,7 @@ export default defineAppConfig({
     dark: true,
   },
   api: {
-    // base_url: "https://api.umaestro.fr/",
-    base_url: "http://localhost:3333/",
+    base_url: "https://api.umaestro.fr/",
+    // base_url: "http://localhost:3333/",
   },
 });
